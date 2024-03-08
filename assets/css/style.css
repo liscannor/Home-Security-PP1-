@@ -45,8 +45,7 @@ h1 {
  #logo {
     display: flex;
     justify-content: start;
-  align-items: center;
-  
+    /* align-items: baseline; */
  }
 
 .logo-text {
@@ -57,12 +56,21 @@ h1 {
     font-size: 60%;
 }
 
+
 /* navigation */
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 0 15px;
+    box-shadow: 0 2px 2px #32362E;
+    display: none;
+}
 
 #menu {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 1.5px;
-    
+    background-color: #FEDD01;
 }
 
 #menu li {
