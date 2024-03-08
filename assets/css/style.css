@@ -21,6 +21,10 @@ header {
     height: 50px;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 /* Main content */
 main {
     flex: 1 0 auto;
