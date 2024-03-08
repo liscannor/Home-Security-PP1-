@@ -22,7 +22,7 @@ ul {
 /* Header */
 header {
     width: 100%;
-    padding: 7px 15px;
+    padding: 10px 15px;
     position: fixed;
     z-index: 99;
     display: flex;
@@ -44,17 +44,20 @@ h1 {
     color: #000000;
     font-size: medium;
 }
- #logo {
+
+.logo {
     display: flex;
     justify-content: start;
-    /* align-items: baseline; */
- }
-
-.logo-text {
-    margin-left: 5px;
+    gap: 10px;
+    align-items: center;
+    flex-direction: row;
 }
 
-.logo-text span {
+.logo span {
+    display: block;
+}
+
+.logo span:first-of-type {
     font-size: 60%;
 }
 
@@ -87,13 +90,12 @@ nav {
     font-size: 2rem;
 }
 
-
-#menu li {
-    margin-bottom: 10px;
+#menu a {
+    padding: 5px;
 }
 
 .active {
-border-bottom: 1px solid #32362E;
+    border-bottom: 1px solid #32362E;
 }
 
 /* Main content */
@@ -113,11 +115,9 @@ footer {
 @media screen and (min-width: 768px) {
     /* Header */
     header {
-        padding: 7px 25px;
-    }
-
-    #logo {
-        margin: 0 5px;
+        padding: 15px 25px;
+        align-items: center;
+        border-bottom: 1px solid #eee;
     }
 
     h1 {
@@ -130,12 +130,12 @@ footer {
         width: fit-content;
         box-shadow: none;
         padding-right: 0;
-        margin-right: 5px;
     }
 
     #menu {
         display: flex;
         background-color: #ffffff;
+        justify-content: end;
     }
 
     .menu-toggle-label {
@@ -148,7 +148,7 @@ footer {
 
    /* Main content */
     main {
-    margin-top: 63px;
+        margin-top: 79px;
     }
 }
 
