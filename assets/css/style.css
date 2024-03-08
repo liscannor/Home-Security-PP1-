@@ -57,6 +57,22 @@ h1 {
     font-size: 60%;
 }
 
+/* navigation */
+
+#menu {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 1.5px;
+    
+}
+
+#menu li {
+    margin-bottom: 10px;
+}
+
+.active {
+border-bottom: 1px solid #32362E;
+}
+
 /* Main content */
 main {
     flex: 1 0 auto;
