@@ -77,7 +77,6 @@ nav {
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 2px;
     background-color: #FEDD01;
-    padding: 0 15px;
 }
 
 #menu-toggle:checked~nav {
@@ -107,6 +106,14 @@ padding: 10px 0;
 main {
     flex: 1 0 auto;
     margin-top: 53px;
+}
+
+/* Hero section */
+
+#hero {
+    height: 30vh;
+    width: 100%;
+    background: url("../images/newhero.jpg") no-repeat left center/cover;
 }
 
 /* footer */
@@ -161,7 +168,7 @@ footer h3 {
 @media screen and (min-width: 768px) {
     /* Header */
     header {
-        padding: 15px 25px;
+        padding: 15px 30px;
         align-items: center;
         border-bottom: 1px solid #eee;
     }
@@ -195,6 +202,10 @@ footer h3 {
    /* Main content */
     main {
         margin-top: 70px;
+    }
+
+    #hero {
+        height: 600px;
     }
 
     /* Footer */
