@@ -29,7 +29,7 @@ h1, h2, h3 {
 
 #about,
 #reasons {
-margin: 10px auto;
+margin: 40px auto;
 width: 90%;
 }
 
@@ -196,10 +196,6 @@ main {
 
 #reasons i {
     font-size: 175%;
-}
-
-#reasons div:last-child {
-    margin-bottom: 10px;
 }
 
 /* footer */
