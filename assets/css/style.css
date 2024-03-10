@@ -329,6 +329,20 @@ footer h3 {
     #menu a:hover{
     border-bottom: 1px solid #32362E;
     }
+
+    /* reasons section */
+
+    #reasons h3 {
+        font-size: larger;
+    }
+    
+    #reasons i {
+        font-size: 250%;
+    }
+
+    #reasons-wrap {
+        gap: 30px;
+    }
 }
 
 /* Media query: desctop */
