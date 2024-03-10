@@ -37,6 +37,8 @@ width: 90%;
 #reasons > h2 {
     text-align: center;
     margin: 15px auto;
+    padding-bottom: 3px;
+    border-bottom: 2px solid #FEDD01;
 }
 
 /* Header */
@@ -194,6 +196,10 @@ main {
 
 #reasons i {
     font-size: 175%;
+}
+
+#reasons div:last-child {
+    margin-bottom: 10px;
 }
 
 /* footer */
