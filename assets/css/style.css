@@ -305,6 +305,14 @@ footer h3 {
  #about-wrap {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
+    gap: 30px;
  }
+ #about-wrap > div {
+    flex-basis: 33%;
+ }
+ #about p {
+    font-size: 125%;
+ }
+
 }
