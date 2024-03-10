@@ -19,6 +19,14 @@ ul {
     list-style-type: none;
 }
 
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #000000;
+    font-size: medium;
+}
+
 /* Header */
 header {
     width: 100%;
@@ -34,15 +42,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-    color: #000000;
-    font-size: medium;
 }
 
 .logo {
@@ -114,6 +113,22 @@ main {
     height: 30vh;
     width: 100%;
     background: url("../images/newhero.jpg") no-repeat left center/cover;
+    position: relative;
+}
+
+#hero-text {
+    position: absolute;
+    bottom: 10px;
+    right: 0;
+    width: 60%;
+    background-color: rgba(255,204,0, .8);
+    padding: 10px;
+    
+}
+
+#hero-text > h3 {
+    color: #ffffff;
+    text-align: center;
 }
 
 /* footer */
@@ -206,6 +221,11 @@ footer h3 {
 
     #hero {
         height: 600px;
+    }
+
+    #hero-text {
+        right: 20px;
+        bottom: 20px;
     }
 
     /* Footer */
