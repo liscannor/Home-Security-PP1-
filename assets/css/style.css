@@ -34,7 +34,8 @@ width: 90%;
 }
 
 #about > h2,
-#reasons > h2 {
+#reasons > h2,
+#keepintouch h2 {
     text-align: center;
     margin: 15px auto;
     padding-bottom: 3px;
@@ -118,8 +119,10 @@ padding: 10px 0;
 
 /* Main content */
 main {
+    display: flex;
     flex: 1 0 auto;
     margin-top: 59px;
+    flex-direction: column;
 }
 
 /* Hero section */
@@ -182,7 +185,8 @@ main {
 
 }
 
-#reasons h3 {
+#reasons h3,
+.radio-buttons > h3 {
     font-size: small;
     text-align: center;
 }
@@ -208,6 +212,73 @@ main {
 #gallery {
     line-height: 0;
 }
+/* Keep In Touch page */
+
+#keepintouch {
+    background: url("../images/bcg-form.webp") no-repeat ;
+    padding: 20px 5% 0 5%;
+    background-position: 75%;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+#keepintouch i {
+    font-size: 175%;
+}
+
+#keepintouch-form {
+    width: 80%;
+    background-color: rgb(50, 54, 46, .6);
+    color: #FEDD01;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 15px;
+    border-radius: 5px;
+    
+}
+
+#keepintouch h2 {
+    color: #ffffff;
+}
+
+#keepintouch-form h3 {
+    font-size: x-small;
+    color: #ffffff;
+    text-align: center;
+}
+
+.text-input {
+    width: 100%;
+    height: 20px;
+    padding: 0 5px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+    background-color: rgba(255, 255, 255, .2);
+    outline: none;
+    color: #ffffff;
+}
+
+.radio-buttons {
+    display: flex;
+   flex-direction: column;
+    margin-top: 5px;
+}
+
+#keepintouch button {
+    display: flex;
+    margin: 15px auto;
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #32362E;
+    font-weight: 700;
+
+    
+}
+
+
 
 /* footer */
 footer {
