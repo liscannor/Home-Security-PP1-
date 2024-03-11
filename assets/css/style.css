@@ -119,7 +119,7 @@ padding: 10px 0;
 /* Main content */
 main {
     flex: 1 0 auto;
-    margin-top: 53px;
+    margin-top: 59px;
 }
 
 /* Hero section */
@@ -196,6 +196,17 @@ main {
 
 #reasons i {
     font-size: 175%;
+}
+
+/* Gallery page */
+
+#gallery img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#gallery {
+    line-height: 0;
 }
 
 /* footer */
