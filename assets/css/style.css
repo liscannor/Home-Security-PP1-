@@ -326,6 +326,10 @@ footer h3 {
     border-bottom: 1px solid #32362E;
     }
 
+    h2 {
+        font-size: 175%;
+    }
+
     /* reasons section */
 
     #reasons h3 {
