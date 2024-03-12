@@ -401,6 +401,15 @@ footer h3 {
         transform: translate(-50%, -50%);
     }
 
+    .text-input:hover {
+        border-color: #FEDD01;
+    }
+
+    #keepintouch button:hover {
+        background-color: #32362E;
+        color: #ffffff;
+    }
+
 
     /* Footer */
 
