@@ -140,8 +140,7 @@ main {
     right: 0;
     width: 60%;
     background-color: rgba(255,204,0, .8);
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 #hero-text > h3 {
