@@ -1,39 +1,38 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Home Security
 
-Welcome,
+Home Security company is a family-run security systems and alarm installation business that was established in Ukraine 17 years ago. Currently the founders are opening a branch in Ireland. The website is designed to familiarise future customers with home security and the service they provide. The Home Security website is designed to be responsive so that users can view it on a variety of devices.
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Home Security shown on a variety of screen sizes](assets/images/home-security-website.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
-
-## Codeanywhere Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
-
-`python3 -m http.server`
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
-
-`http_server`
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A button should appear to click: _Open Preview_ or _Open Browser_.
-
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Security-PP1-/index.html)
 
 ---
+## CONTENTS
 
-Happy coding!
+* [User Experience](#user-experience-ux)
+  * [User Stories](#user-stories)
+
+
+
+    ## User Experience (UX)
+
+### User Stories
+
+#### First Time Visitor Goals
+
+* I want to know how this website help me with my question. I want to get the information I need.
+* I want the site to be responsive to my device and easy to navigate.
+* I want the site to make it easy to find contacts.
+
+#### Returning Visitor Goals
+
+* I want to be able to choose the type of security system that suits me interest.
+* I want to be able to easily contact the company by phone or by e-mail.
+* I want to be able to get expert advice on my question.
+
+#### Frequent Visitor Goals
+
+* I want to be able to leave my request for feedback.
+* I want to be able to view the social media links to check for new video cameras and signalling devices.
+
+- - -
