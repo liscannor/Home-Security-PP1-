@@ -32,8 +32,9 @@ h1, h2, h3 {
 }
 
 #about,
-#reasons {
-margin: 40px auto;
+#reasons,
+#hero {
+margin: 0 auto 40px;
 width: 90%;
 }
 
@@ -153,10 +154,6 @@ main {
 }
 
 /* about */
-
-#about div {
-    margin-bottom: 10px;
-}
 
 #about p {
    text-align: justify;
