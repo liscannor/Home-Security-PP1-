@@ -188,6 +188,7 @@ main {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    padding-top: 15px;
     
 
 }
@@ -503,6 +504,7 @@ footer h3 {
 
     #reasons-wrap {
         gap: 30px;
+        padding-top: 25px;
     }
 
     /* Gallery */
