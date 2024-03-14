@@ -25,7 +25,10 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
   * [Libraries & Programs Used](#Libraries-&-Programs-Used)
 
 * [Deployment](#deployment)
-  * [How to Deploy](##how-to-deploy)
+    * [How to Deploy](##how-to-deploy)
+    * [Local Development](#local-development)
+        * [How to Fork](#how-to-fork)
+        * [How to Clone](#how-to-clone)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
@@ -195,6 +198,26 @@ To Deploy the site using GitHub Pages:
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
 6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [liscannor/Home-Security-PP1-](https://github.com/liscannor/Home-Security-PP1-)
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [liscannor/Home-Security-PP1-](https://github.com/liscannor/Home-Security-PP1-)
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 - - - 
 
