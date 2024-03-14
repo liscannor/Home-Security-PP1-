@@ -32,6 +32,7 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
+  * [Lighthouse](#Lighthouse)
   * [Solved Bugs](#Solved-Bugs)
 
 * [Credits](#Credits)
@@ -241,14 +242,38 @@ In my mid project meeting with my mentor, he advised me to add a popup after sub
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
 
-* [Index Page HTML](documentacion/w3c_index.png)
-* [Gallery Page HTML](documentacion/w3c_gallery.png)
-* [Keep In Touch Page HTML](documentacion/w3c_keppintouch.png)
-* [style.css CSS](documentacion/w3c_css.png)
+* [Index Page HTML](documentacion/w3c_index.png) - Passed, no errors found.
+* [Gallery Page HTML](documentacion/w3c_gallery.png) - Passed, no errors found.
+* [Keep In Touch Page HTML](documentacion/w3c_keppintouch.png) - Passed, no errors found.
+* [style.css CSS](documentacion/w3c_css.png) - Passed, no errors found.
 
 The W3C CSS was used to validate CSS in the style.css file.
 
-* [style.css CSS](documentacion/css_valid.jpeg)
+* [style.css CSS](documentacion/css_valid.jpeg) - Passed, no errors found.
+
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+### Desktop Results
+
+![index.html](documentacion/lighthousetesting/homepage-test-desc.png)
+
+![gallery.html](documentacion/lighthousetesting/gallerypage-test-desc.png)
+
+![keepintouch.html](documentacion/lighthousetesting/contactpage-test-desc.png)
+
+![thankyou.html](documentacion/lighthousetesting/thankyoupage-test-desc.png)
+
+### Mobile Results
+
+![index.html](documentacion/lighthousetesting/homepage-test-mobl.png)
+
+![gallery.html](documentacion/lighthousetesting/gallerypage-test-mobl.png)
+
+![keepintouch.html](documentacion/lighthousetesting/contactpage-test-mobl.png)
+
+![thankyou.html](documentacion/lighthousetesting/thankyoupage-test-mobl.png)
 
 
 ### Solved Bugs
