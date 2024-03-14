@@ -22,7 +22,7 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
 
 * [Technologies Used](#Technologies-Used)
   * [Languages Used](#Languages-Used)
-  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
+  * [Libraries & Programs Used](#Libraries-&-Programs-Used)
 
 * [Deployment](#deployment)
   * [How to Deploy](##how-to-deploy)
@@ -157,7 +157,7 @@ I have been mindful during coding to ensure that the website is as accessible fr
 
 HTML5 and CSS were used to create this website.
 
-### Frameworks, Libraries & Programs Used
+### Libraries & Programs Used
 
 Figma - Used to create desing and resize images.
 
@@ -177,7 +177,7 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Can I Include](https://caninclude.glitch.me/) - To check tags nesting.
 
-3C Validator - For validating the HTML and CSS code.
+W3C Validator - For validating the HTML and CSS code.
 
 - - - 
 
