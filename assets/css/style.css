@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-    /* outline: 1px solid red; */
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -11,6 +10,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: 'Barlow Condensed', sans-serif;
     color: #32362E;
 
 }
@@ -135,7 +135,7 @@ main {
 #hero {
     height: 30vh;
     width: 100%;
-    background: url("../images/newhero.jpg") no-repeat left center/cover;
+    background: url("../images/heronew.webp") no-repeat left center/cover;
     position: relative;
 }
 
@@ -172,6 +172,11 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
+}
+
+#about-image {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 /* reasons section */

@@ -2,7 +2,7 @@
 
 Home Security company is a family-run security systems and alarm installation business that was established in Ukraine 17 years ago. Currently the founders are opening a branch in Ireland. The website is designed to familiarise future customers with home security and the service they provide. The Home Security website is designed to be responsive so that users can view it on a variety of devices.
 
-![Home Security shown on a variety of screen sizes](assets/images/home-security-website.png)
+![Home Security shown on a variety of screen sizes](documentacion/home-security-website.png)
 
 Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Security-PP1-/index.html)
 
@@ -12,8 +12,32 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
 
+* [Design](#Design)
+  * [Colour Scheme](#Colour-Scheme)
+  * [Typography](#Typography)
+  * [Imagery](#Imagery)
+  * [Wireframes](#Wireframes)
+  * [Features](#Features)
+  * [Accessibility](#Accessibility)
 
+* [Technologies Used](#Technologies-Used)
+  * [Languages Used](#Languages-Used)
+  * [Frameworks, Libraries & Programs Used](#Frameworks,-Libraries-&-Programs-Used)
 
+* [Deployment](#deployment)
+  * [How to Deploy](##how-to-deploy)
+
+* [Testing](#Testing)
+  * [W3C Validator](#W3C-Validator)
+  * [Solved Bugs](#Solved-Bugs)
+
+* [Credits](#Credits)
+    * [Content References](#Content-References)
+    * [Media References](#Media-References)
+    * [Acknowledgements](#Acknowledgements)
+  
+ - - -
+  
     ## User Experience (UX)
 
 ### User Stories
@@ -36,3 +60,209 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
 * I want to be able to view the social media links to check for new video cameras and signalling devices.
 
 - - -
+
+## Design
+
+### Colour Scheme
+
+The website uses 3 main colours that correspond to the colours used in the logo of the website. 
+
+* I have used `#32362E` & `#000000` as the primary colour used for the text.
+* I have used `#FEDD01` as the secondary colour used for  the sites background-colour and used for the accent colour the text.
+* I have used `#ffffff` as the colour used for the site background-colour and used for the accent colour the text.
+
+![Home Security Website Colour Palette](documentacion/Security.png)
+
+
+### Typography
+
+[Google Fonts](https://fonts.google.com/) was used to import the chosen fonts for use in the site.
+
+* For the Page Title I have used the google font [Montserrat](https://fonts.google.com/specimen/Montserrat?preview.text=Nadiiy&query=Montserrat&sort=popularity). It is a serif font.
+
+
+* For the body of the page I have used the google font [Barlow Condensed](https://fonts.google.com/specimen/Barlow+Condensed?preview.text=Nadiiy&query=Barlow+Condensed+&sort=popularity). It is a sans-serif font.  
+
+
+### Imagery
+
+The logo was used with the permission of his owner. The images were taken from the [unsplash.com](https://unsplash.com/), that fit the theme of the site.
+
+### Wireframes
+
+Wireframe was created for only mobile version using figma.
+
+![Home Page - mobile](documentacion/wireframe.png)
+
+### Features
+
+The website is comprised of a home page, a gallery page and a keep in touch page.
+
+All Pages on the website are responsive and have:
+
+* A favicon in the browser tab.
+
+![favicon](documentacion/feat-logo.png)
+
+* A responsive navigation bar at the top which allows the user to navigate through the site.  To the left of the navigation bar is a logo company together with the text Home Security. To the right of the navigation bar are the links to the websites pages (home, gallery, and ckeep in touch). On mobile devices the navigation links change to a burger toggler.
+
+* A footer which contains two blocks. First blocks contains social media icon links to facebook, instagram and twitter. Second blocks shows contact information, such as phone number and email address with appropriate icons. The icons were used to keep the footer more clean, give more space and because they are universally recognisable.
+
+#### Home Page.
+
+  * Hero Section.
+  The hero shows a image of a camara on the wall.
+  * About Us Section.
+  This section is broken down into three subsections: two paragraphs and one image. Text describe the company and its mission.
+  * Why Choose Us Section gives the user information about benefits, if he/she choose this company. Its is presented as text and the icons.
+
+![Gallery Page](documentacion/homepage.png)
+
+#### Gallery Page.
+
+    Gallery page includes a set of pictures that show what the company does and what services it provides.
+
+![Gallery Page](documentacion/gallerypage.png)
+
+#### Keep In Touch Page.
+
+* Background picture related to the company's activity.
+* This section-form gives the user opportunity to leave a request to be contacted by a company employee.
+
+![Keep In Touch Page](documentacion/keepintouch.png)
+
+#### Future Implementations
+
+In future implementations I would like to:
+
+1 Create a page with product cards and services.
+2 Give users the option to order goods from the site.
+3 Create a basket of goods and services.
+
+### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
+* Ensuring that there is a sufficient colour contrast throughout the site.
+* Ensuring menus are accessible by marking the current page as current for screen readers.
+
+- - - 
+
+## Technologies Used
+
+### Languages Used
+
+HTML5 and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Figma - Used to create desing and resize images.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+VS Code - To write the code.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Fotor](https://www.fotor.com/) - To compress images and change to webp format.
+
+[Can I Include](https://caninclude.glitch.me/) - To check tags nesting.
+
+3C Validator - For validating the HTML and CSS code.
+
+- - - 
+
+## Deployment 
+
+### How to deploy
+
+The site is deployed using GitHub Pages - [Home Security](https://liscannor.github.io/Home-Security-PP1-/index.html).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, Home-Security-PP1.
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+- - - 
+
+## Testing
+
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.  I deployed my site halfway through to test on real-world devices. These devices included:  
+* iPhone 11 Pro
+* iPhone 13 Pro Max
+* iPhone 15 Pro Max
+* Xiaomi Redmi 10
+* iPad 9 
+* Laptop Mac Air M2
+
+ The browsers used were:  
+* Chrome  
+* Safari
+
+In my mid project meeting with my mentor, he advised me to add a popup after submitting the form.
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* [Index Page HTML](documentacion/w3c_index.png)
+* [Gallery Page HTML](documentacion/w3c_gallery.png)
+* [Keep In Touch Page HTML](documentacion/w3c_keppintouch.png)
+* [style.css CSS](documentacion/w3c_css.png)
+
+### Solved Bugs
+
+1. Logo and text in the header were not on the same line and no styles could help. A friend gave me a tip to change the html structure: remove the list where these elements were. Instead just put the logo and text in one link. It was a great solution.
+2. In the about section of the desktop screen, the items should display in a single line in the centre. I used align-items:baseline and was sure it was a good solution and spent a lot of time applying other styles to align the items vertically. I should have just used align-items:centre though.
+3. The form on screens larger than 768px had to fixed to the centre of the screen. I didn't know how to implement it. I found the solution on Google. I applayed to the form the set styles:top: 50%;left: 50% transform: translate(-50%, -50%);.
+
+- - -
+
+## Credits  
+  
+### Content References
+
+- All content written for the website is by myself, is not fictional. Such a company exists and the business is in the planning stages.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
+- [GoIT](https://goit.global/ua/) for instalilng the developer inviroment.
+- [W3Schools](https://www.w3schools.com/) for additional learning material.
+- Amy from Code Institute Facilitator our group for helping me with with some questions about breakpoints, README and free images websites.
+- [Network security](https://alarms.networksecurity.ie/) Some part of design inspired by Network security website.
+- [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README structure and Markdown guidance. 
+  
+  ### Media References
+  
+- [Unsplash](https://unsplash.com/) for all images used on this site. 
+- [Font Awesome](https://fontawesome.com/) for the icons used in the footer of this site.
+- [Figma](https://www.figma.com/) for the make desing and resize images.
+- [Fotor](https://www.fotor.com/) for the optimise images used in this site.
+
+### Acknowledgements
+- I would like to acknowledge my Code Institute mentor, Jubril Akolade, for his clear explonation, his help, positive attitude and encouragement on this project.
+- My husband for tips, advices and free time for coding throughout the project.
+
+
+
+
+
+
+
+
+  
+
+
+
+
