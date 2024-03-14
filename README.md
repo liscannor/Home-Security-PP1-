@@ -246,6 +246,11 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Keep In Touch Page HTML](documentacion/w3c_keppintouch.png)
 * [style.css CSS](documentacion/w3c_css.png)
 
+The W3C CSS was used to validate CSS in the style.css file.
+
+* [style.css CSS](documentacion/css_valid.jpeg)
+
+
 ### Solved Bugs
 
 1. Logo and text in the header were not on the same line and no styles could help. A friend gave me a tip to change the html structure: remove the list where these elements were. Instead just put the logo and text in one link. It was a great solution.
