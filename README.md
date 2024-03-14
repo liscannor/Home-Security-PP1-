@@ -48,7 +48,7 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
 
 #### First Time Visitor Goals
 
-* I want to know how this website help me with my question. I want to get the information I need.
+* I want to know how user-friendly the site is for my understanding. I want to get the information I need.
 * I want the site to be responsive to my device and easy to navigate.
 * I want the site to make it easy to find contacts.
 
@@ -94,13 +94,13 @@ The logo was used with the permission of his owner. The images were taken from t
 
 ### Wireframes
 
-Wireframe was created for only mobile version using figma.
+Wireframe was created for only mobile version using [Figma](https://www.figma.com/).
 
 ![Home Page - mobile](documentacion/wireframe.png)
 
 ### Features
 
-The website is comprised of a home page, a gallery page and a keep in touch page.
+The website is comprised of a home page, a gallery page, a keep in touch page and a thank you page.
 
 All Pages on the website are responsive and have:
 
@@ -134,6 +134,11 @@ All Pages on the website are responsive and have:
 * This section-form gives the user opportunity to leave a request to be contacted by a company employee.
 
 ![Keep In Touch Page](documentacion/keepintouch.png)
+
+#### Thank you Page.
+
+* Background of the page is white color for not to overload the user's perception and not to distract his attention from the main thing.
+* The section has only two headers that give the users feedback on their subscription.
 
 #### Future Implementations
 
@@ -182,6 +187,10 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Can I Include](https://caninclude.glitch.me/) - To check tags nesting.
 
 W3C Validator - For validating the HTML and CSS code.
+
+W3C CSS - For validating the CSS code.
+
+Google Lighthouse - For auditing the website.
 
 - - - 
 
@@ -245,6 +254,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Index Page HTML](documentacion/w3c_index.png) - Passed, no errors found.
 * [Gallery Page HTML](documentacion/w3c_gallery.png) - Passed, no errors found.
 * [Keep In Touch Page HTML](documentacion/w3c_keppintouch.png) - Passed, no errors found.
+* [Thank You Page HTML](documentacion/w3c_thankyou.png) - Passed, no errors found.
 * [style.css CSS](documentacion/w3c_css.png) - Passed, no errors found.
 
 The W3C CSS was used to validate CSS in the style.css file.
@@ -276,6 +286,37 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 ![thankyou.html](documentacion/lighthousetesting/thankyoupage-test-mobl.png)
 
 
+### MANUAL TESTING
+
+#### Testing User Stories
+
+`First Time Visitors`
+
+|  Goals | How are they achieved? |
+| :--- | :--- |
+| I want to know how user-friendly the site is for my understanding. I want to get the information I need. | In the top of website users can easily use the site navigation. In the bottom of website users can easily use social links, where they can see the work of the company provides. |
+| I want the site to be responsive to my device and easy to navigate. | The website is fully responsive. |
+| I want the site to make it easy to find contacts. | The contact information provided at the bottom of the site. |
+
+`Returning Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want to be able to choose the type of security system that suits me interest.| The Keep In Touch page allows users to choose the type of security that is suitable for them. |
+| I want to be able to easily contact the company by phone or by e-mail. | A phone number and e-mail address are provided in the footer of the web page. Users can easily contact the company by choosing on one of the two options. |
+| I want to be able to get expert advice on my question. | Users can usethe contact phone number or email address indicated in the footer of all pages. Anather way they can use Keep In Touch form to contact with company. |
+
+`Frequent Visitors`
+
+| Goals | How are they achieved? |
+| :--- | :--- |
+| I want to be able to leave my request for feedback. | Users are able to leave their request for feedback through the contact-form on the Keep In Touch Page. |
+| I want to be able to view the social media links to check for new video cameras and signalling devices. | Users can find the social media links at the bottom of the site. |
+
+- - -
+
+
+
 ### Solved Bugs
 
 1. Logo and text in the header were not on the same line and no styles could help. A friend gave me a tip to change the html structure: remove the list where these elements were. Instead just put the logo and text in one link. It was a great solution.
@@ -288,13 +329,14 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
   
 ### Content References
 
-- All content written for the website is by myself, is not fictional. Such a company exists and the business is in the planning stages.
+- All content written for the website is by myself, exept for the Thank You Page (the idea I saw at the Kera Cudmore) is not fictional. Such a company exists and the business is in the planning stages.
 - [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material and 'content zoom' module in the Love Running project.
 - [GoIT](https://goit.global/ua/) for instalilng the developer inviroment.
 - [W3Schools](https://www.w3schools.com/) for additional learning material.
 - Amy from Code Institute Facilitator our group for helping me with with some questions about breakpoints, README and free images websites.
 - [Network security](https://alarms.networksecurity.ie/) Some part of design inspired by Network security website.
 - [Kera Cudmore - Creating your First README](https://github.com/kera-cudmore/readme-examples) for README structure and Markdown guidance. 
+- [Kera Cudmore](https://github.com/kera-cudmore/Bully-Book-Club/tree/main) for the idea of an additional page (Thank you).
   
   ### Media References
   
