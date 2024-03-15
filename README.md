@@ -26,13 +26,14 @@ Visit the deployed site: [Home Security](https://liscannor.github.io/Home-Securi
 
 * [Deployment](#deployment)
     * [How to Deploy](##how-to-deploy)
-    * [Local Development](#local-development)
-        * [How to Fork](#how-to-fork)
-        * [How to Clone](#how-to-clone)
+    * [Local Development](#Local-development)
+        * [How to Fork](#How-to-fork)
+        * [How to Clone](#How-to-clone)
 
 * [Testing](#Testing)
   * [W3C Validator](#W3C-Validator)
   * [Lighthouse](#Lighthouse)
+  * [Manual Testing](#Manual-Testing)
   * [Solved Bugs](#Solved-Bugs)
 
 * [Credits](#Credits)
@@ -316,6 +317,20 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 - - -
 
 
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Website logo | Link directs the user back to the home page | Clicked Logo | Home page reloads | Pass |
+| Home Link in the navigation bar | The link worked as expected, the link leading to internal Home page of the site opened correctly | Clicked on the link | The Home page opens | Pass |
+| Gallery Link in the navigation bar | The link worked as expected, the link leading to internal Gallery page of the site opened correctly | Clicked on the link | The Gallery page opens | Pass |
+| Keep In Touch Link in the navigation bar | The link worked as expected, the link leading to internal Keep In Touch page of the site opened correctly | Clicked on the link | The Keep In Touch page opens | Pass |
+| Keep In Touch form | The each input: name, surname, phone, email and type of security worked as expected, If the user misses one blank field, the form will not be submitted | Filled the inputs | The form can then be submitted | Pass |
+| Submit Button | Directs the user to the Thank You page | Clicked on button | The Thank You page opens | Pass |
+| Facebook Link in the footer | The link worked as expected, the link leading to external pages opened correctly in a seperate browser tab | Clicked on the link | Facebook page opens | Pass |
+| Instagram Link in the footer | The link worked as expected, the link leading to external pages opened correctly in a seperate browser tab | Clicked on the link | Instagram page opens | Pass |
+| Twitter Link in the footer | The link worked as expected, the link leading to external pages opened correctly 
+in a seperate browser tab | Clicked on the link | Twitter page opens | Pass |
+| Call Link in the footer | The link worked as expected, the link makes phone number company clickable | Clicked on the link | Connecting to a specified telefone number | Pass |
+| Email Link in the footer | The link worked as expected, the link The link prompts the user to open the mail and send an email to the specified email address | Clicked on the link | E-mail opens | Pass |
 
 ### Solved Bugs
 
