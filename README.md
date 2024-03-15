@@ -121,7 +121,7 @@ All Pages on the website are responsive and have:
   This section is broken down into three subsections: two paragraphs and one image. Text describe the company and its mission.
   * Why Choose Us Section gives the user information about benefits, if he/she choose this company. Its is presented as text and the icons.
 
-![Gallery Page](documentacion/homepage.png)
+![Home Page](documentacion/homepage.png)
 
 #### Gallery Page.
 
@@ -140,6 +140,8 @@ All Pages on the website are responsive and have:
 
 * Background of the page is white color for not to overload the user's perception and not to distract his attention from the main thing.
 * The section has only two headers that give the users feedback on their subscription.
+
+![Thank You Page](documentacion/thankyoupage.png)
 
 #### Future Implementations
 
